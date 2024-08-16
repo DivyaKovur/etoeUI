@@ -7,7 +7,7 @@ export const Register = () => {
   const fnRegister = async () => {
     try {
       var dataobj = { "data": data };
-      const res = await fetch('http://localhost:2023/marks/save', {
+      const res = await fetch('https://etoe-ui.vercel.app/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
